@@ -1,0 +1,14 @@
+[gameserver]
+name = "Bartz"
+secret = "change_me"
+internal_ip = "127.0.0.1"
+external_ip = "192.168.1.2"
+port = 7777
+database = { name = "l2rust-server", host = "127.0.0.1", port = 0, user = "", password = "" }
+cache = { host = "127.0.0.1", port = 6379, password = "" }
+options = { max_players = 10000, testing = false }
+
+[loginserver]
+host = "127.0.0.1"
+auto_create = false
+database = { name = "l2rust-server", host = "127.0.0.1", port = 0, user = "", password = "" }
